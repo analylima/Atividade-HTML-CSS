@@ -1,10 +1,27 @@
-.i{
+body {
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
-img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+.navbar {
+    background-color: #A0522D;
+    padding: 20px;
+    margin-left: -10px;
+    width: 105%;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 30px;
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    transition: all 0.8s;
+}
+
+.navbar a:hover {
+    color: rgb(48, 48, 48);
 }
